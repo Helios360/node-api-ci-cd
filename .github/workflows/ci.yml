@@ -21,5 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install express
+        run: npm install express
+
       - name: Run tests
         run: npm test
